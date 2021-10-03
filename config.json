@@ -1,0 +1,34 @@
+{
+    "PROGRAM": {
+        "EXAMPLES": 5,
+        "INPUTFILE": "CIPIO_Active Members.csv"
+    },
+    "DESTINATIONS": {
+        "customer_profile": true,
+        "membership_revenue": true,
+        "membership": true,
+        "customer_attendance": true
+    },
+    "SEARCH_TERMS":{
+        "name": ["Member", "member", "subscriber", "Subscriber", "first", "First", "last", "Last"],
+        "state": ["State", "state"],
+        "city": ["City", "city"],
+        "zip": ["zip", "Zip"],
+        "address": ["Address", "address"],
+        "gender": ["Male", "male", "female", "Female"],
+        "contractState": ["status", "Status", "state", "State"],
+        "interval": ["Month", "Year", "month", "year"],
+        "agreement": ["Agreement", "agreement"],
+        "productName": ["plan", "Plan", "Product", "product", "Subscription", "subscription", "package", "Package"],
+        "memberNumber": ["Mem", "mem", "Sub", "sub"],
+        "currency": ["Currency", "currency"],
+        "productId": ["plan","Plan","Product","product","subscription","Subscription","item","Item"],
+        "title": ["title", "Title"],
+        "duration": ["duration", "Duration"],
+        "paymentSource": ["Credit", "Bank", "Manual", "credit", "bank", "manual", "google", "apple", "Google", "Apple"],
+        "startDates": ["start", "Start", "join", "Join"],
+        "endDates": ["end", "End", "Expiration", "expiration"],
+        "paidDates": ["paid", "Paid"],
+        "publishDates": ["publish", "Publish", "available", "Available"]
+    }
+}
